@@ -1,0 +1,16 @@
+{
+  "name": "git-mcp",
+  "version": "1.0.0",
+  "description": "MCP server and client for Git operations",
+  "main": "git_mcp_server.js",
+  "scripts": {
+    "start": "node git_mcp_server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "axios": "^0.21.1"
+  }
+}
